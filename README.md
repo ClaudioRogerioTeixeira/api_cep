@@ -1,2 +1,13 @@
-# api_cep
-Consumir uma API de CEP com JavaScript puro
+# Consumir uma API de CEP com JavaScript puro
+
+Construir um projeto que consuma a api ViaCep.
+
+### Objetivo:
+
+* Praticar as seguintes tecnologias.
+* Html
+* Css
+* Javascript
+* Bootstrap
+
+### Desenvolvedor: Claudio Teixeira

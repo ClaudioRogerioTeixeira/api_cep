@@ -7,6 +7,7 @@ Construir um projeto que consuma a api ViaCep.
 * Praticar as seguintes tecnologias.
 * Html
 * Css
+* Flexbox
 * Javascript
 * Bootstrap
 

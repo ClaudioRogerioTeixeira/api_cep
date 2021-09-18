@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="./js/main.js" type="module" defer></script>
+  <title>Consumir API</title>
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <div class="titulo mt-3">Consumindo API ViaCep com JavaScript Puro</div>
+      <div class="row">
+        <div class="col-6 mb-3">
+          <label for="InputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="InputNome">
+        </div>
+        <div class="col-6 mb-3">
+          <label for="InputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Digite um email válido.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 mb-3">
+          <label for="InputCep" class="form-label">CEP</label>
+          <input type="text" class="form-control" id="InputCep">
+          <div id="msgCep" class="form-text"></div>
+        </div>
+        <div class="col-8 mb-3">
+          <label for="InputEndereco" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="InputEndereco">
+        </div>
+        <div class="col-1 mb-3">
+          <label for="InputNumero" class="form-label">Nrº</label>
+          <input type="text" class="form-control" id="InputNumero">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 mb-3">
+          <label for="InputBairro" class="form-label">Bairro</label>
+          <input type="text" class="form-control" id="InputBairro">
+        </div>
+        <div class="col-5 mb-3">
+          <label for="InputCidade" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="InputCidade">
+        </div>
+        <div class="col-1 mb-3">
+          <label for="InputUf" class="form-label">UF</label>
+          <input type="text" class="form-control" id="InputUf">
+        </div>
+      </div>
+      <div class="botao">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
